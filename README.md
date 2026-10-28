@@ -13,12 +13,13 @@
 - [八家机场特点与价格速览](#overview)
 - [每 GB 单价怎么算](#unit-price)
 - [每月 20／50／100 GB：按量与月付首付对比](docs/usage-cost-comparison.md)
+- [10／20／50 元预算、按量与月付分界](docs/budget-comparison.md)
 - [一元机场特点与套餐](#yiyuan)
 - [牛逼机场特点与套餐](#niubi)
 - [魔戒机场特点与套餐](#mojie)
 - [八戒机场特点与套餐](#bajie)
 - [网际快车特点与套餐](#wangji)
-- [FlyBit特点与套餐](#flybit)
+- [FlyBit 特点与套餐](#flybit)
 - [夜煞云特点与套餐](#yesha)
 - [超级跑车特点与套餐](#paoche)
 - [按量付费和月付怎么选](#billing)
@@ -26,6 +27,15 @@
 - [常见问题](#faq)
 - [完整成本计算与测试记录模板](docs/buying-guide.md)
 - [信息来源与更新方法](docs/sources.md)
+
+## 按问题找到适合的对比
+
+| 你要判断什么 | 直接看哪里 |
+| --- | --- |
+| 首次只想付 10／20／50 元 | [预算内单个按量包](docs/budget-comparison.md#首次付款只有-10-元20-元50-元按量包怎么比较) |
+| 每个月稳定用 20／50／100 GB | [按用量比较首付](docs/usage-cost-comparison.md) |
+| 想知道按量还是月付花费更低 | [同一家套餐的分界用量](docs/budget-comparison.md#同一家机场按量和月付的分界用量是多少) |
+| 看见很低的年付折合月价 | [年付与连续月付的付款比较](docs/budget-comparison.md#年付看起来更便宜多久之后付款总额更少) |
 
 <a id="overview"></a>
 ## 八家机场特点与价格速览

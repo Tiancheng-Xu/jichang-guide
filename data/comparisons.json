@@ -1,0 +1,532 @@
+{
+  "calculated_on": "2026-10-28",
+  "source_dataset": "services.json",
+  "prices_officially_verified": false,
+  "budget_boundaries_inclusive": true,
+  "selection_method": "Highest stated quota within inclusive budget, one plan, exact billing type only. No bundles or discounts.",
+  "budget_comparisons": [
+    {
+      "service_id": "yiyuan",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": null
+        },
+        {
+          "budget_cny": 50,
+          "selected": null
+        }
+      ]
+    },
+    {
+      "service_id": "niubi",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "7.4",
+            "quota_gb_for_unit_price": 1000,
+            "quota_display": "1,000 GB／月",
+            "nominal_cny_per_gb": "0.0074",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "14.9",
+            "quota_gb_for_unit_price": 3000,
+            "quota_display": "3,000 GB／月",
+            "nominal_cny_per_gb": "0.0050",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "14.9",
+            "quota_gb_for_unit_price": 3000,
+            "quota_display": "3,000 GB／月",
+            "nominal_cny_per_gb": "0.0050",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "mojie",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": null
+        },
+        {
+          "budget_cny": 50,
+          "selected": null
+        }
+      ]
+    },
+    {
+      "service_id": "bajie",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "12.9",
+            "quota_gb_for_unit_price": 70,
+            "quota_display": "70 GB／月",
+            "nominal_cny_per_gb": "0.1843",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "38.9",
+            "quota_gb_for_unit_price": 300,
+            "quota_display": "300 GB／月",
+            "nominal_cny_per_gb": "0.1297",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "wangji",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": null
+        },
+        {
+          "budget_cny": 50,
+          "selected": null
+        }
+      ]
+    },
+    {
+      "service_id": "flybit",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "15",
+            "quota_gb_for_unit_price": 128,
+            "quota_display": "128 GB／月",
+            "nominal_cny_per_gb": "0.1172",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "28",
+            "quota_gb_for_unit_price": 256,
+            "quota_display": "256 GB／月",
+            "nominal_cny_per_gb": "0.1094",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "yesha",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "10",
+            "quota_gb_for_unit_price": 138,
+            "quota_display": "138 GB／月",
+            "nominal_cny_per_gb": "0.0725",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "19.8",
+            "quota_gb_for_unit_price": 288,
+            "quota_display": "288 GB／月",
+            "nominal_cny_per_gb": "0.0688",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "29.8",
+            "quota_gb_for_unit_price": 520,
+            "quota_display": "520 GB／月",
+            "nominal_cny_per_gb": "0.0573",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "paoche",
+      "billing": "月付",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "8",
+            "quota_gb_for_unit_price": 100,
+            "quota_display": "100 GB／月",
+            "nominal_cny_per_gb": "0.0800",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "16",
+            "quota_gb_for_unit_price": 220,
+            "quota_display": "220 GB／月",
+            "nominal_cny_per_gb": "0.0727",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "月付",
+            "price_cny": "32",
+            "quota_gb_for_unit_price": 400,
+            "quota_display": "400 GB／月",
+            "nominal_cny_per_gb": "0.0800",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "yiyuan",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": null
+        },
+        {
+          "budget_cny": 50,
+          "selected": null
+        }
+      ]
+    },
+    {
+      "service_id": "niubi",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "13.9",
+            "quota_gb_for_unit_price": 200,
+            "quota_display": "200 GB",
+            "nominal_cny_per_gb": "0.0695",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "35.9",
+            "quota_gb_for_unit_price": 2000,
+            "quota_display": "2,000 GB",
+            "nominal_cny_per_gb": "0.0180",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "mojie",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "1",
+            "quota_gb_for_unit_price": 1,
+            "quota_display": "1 GB",
+            "nominal_cny_per_gb": "1.0000",
+            "notes": "参考文注明体验包不可续费"
+          }
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "19.9",
+            "quota_gb_for_unit_price": 130,
+            "quota_display": "130 GB",
+            "nominal_cny_per_gb": "0.1531",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "29.9",
+            "quota_gb_for_unit_price": 210,
+            "quota_display": "210 GB",
+            "nominal_cny_per_gb": "0.1424",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "bajie",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "1",
+            "quota_gb_for_unit_price": 1,
+            "quota_display": "1 GB",
+            "nominal_cny_per_gb": "1.0000",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "1",
+            "quota_gb_for_unit_price": 1,
+            "quota_display": "1 GB",
+            "nominal_cny_per_gb": "1.0000",
+            "notes": ""
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "34.8",
+            "quota_gb_for_unit_price": 100,
+            "quota_display": "100 GB",
+            "nominal_cny_per_gb": "0.3480",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "wangji",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "6.8",
+            "quota_gb_for_unit_price": 20,
+            "quota_display": "20 GB",
+            "nominal_cny_per_gb": "0.3400",
+            "notes": "",
+            "selected_node_multiplier": 3,
+            "selected_node_cny_per_actual_gb": "1.0200"
+          }
+        },
+        {
+          "budget_cny": 20,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "6.8",
+            "quota_gb_for_unit_price": 20,
+            "quota_display": "20 GB",
+            "nominal_cny_per_gb": "0.3400",
+            "notes": "",
+            "selected_node_multiplier": 3,
+            "selected_node_cny_per_actual_gb": "1.0200"
+          }
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "44",
+            "quota_gb_for_unit_price": 200,
+            "quota_display": "200 GB",
+            "nominal_cny_per_gb": "0.2200",
+            "notes": "",
+            "selected_node_multiplier": 3,
+            "selected_node_cny_per_actual_gb": "0.6600"
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "flybit",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": null
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "36",
+            "quota_gb_for_unit_price": 128,
+            "quota_display": "128 GB",
+            "nominal_cny_per_gb": "0.2813",
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "service_id": "yesha",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": null
+        },
+        {
+          "budget_cny": 50,
+          "selected": null
+        }
+      ]
+    },
+    {
+      "service_id": "paoche",
+      "billing": "按量",
+      "budget_selections": [
+        {
+          "budget_cny": 10,
+          "selected": null
+        },
+        {
+          "budget_cny": 20,
+          "selected": null
+        },
+        {
+          "budget_cny": 50,
+          "selected": {
+            "billing": "按量",
+            "price_cny": "35",
+            "quota_gb_for_unit_price": 200,
+            "quota_display": "200 GB",
+            "nominal_cny_per_gb": "0.1750",
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "payg_monthly_break_even": [
+    {
+      "service_id": "niubi",
+      "payg_price_cny": "13.9",
+      "payg_gb": 200,
+      "monthly_price_cny": "7.4",
+      "monthly_gb": 1000,
+      "break_even_usage_gb": "106.47",
+      "multiplier_assumption": 1
+    },
+    {
+      "service_id": "bajie",
+      "payg_price_cny": "34.8",
+      "payg_gb": 100,
+      "monthly_price_cny": "12.9",
+      "monthly_gb": 70,
+      "break_even_usage_gb": "37.07",
+      "multiplier_assumption": 1
+    },
+    {
+      "service_id": "flybit",
+      "payg_price_cny": "36",
+      "payg_gb": 128,
+      "monthly_price_cny": "15",
+      "monthly_gb": 128,
+      "break_even_usage_gb": "53.33",
+      "multiplier_assumption": 1
+    },
+    {
+      "service_id": "yesha",
+      "payg_price_cny": "106",
+      "payg_gb": 400,
+      "monthly_price_cny": "10",
+      "monthly_gb": 138,
+      "break_even_usage_gb": "37.74",
+      "multiplier_assumption": 1
+    },
+    {
+      "service_id": "paoche",
+      "payg_price_cny": "35",
+      "payg_gb": 200,
+      "monthly_price_cny": "8",
+      "monthly_gb": 100,
+      "break_even_usage_gb": "45.71",
+      "multiplier_assumption": 1
+    }
+  ]
+}
