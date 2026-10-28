@@ -30,6 +30,15 @@
       "pricing": null,
       "pricing_status": "not_verified",
       "url": "https://mojie.co/register?aff=k0qWkTmz"
+    },
+    {
+      "id": "bajie",
+      "name": "八戒机场",
+      "source": "publisher_provided",
+      "read_observation": "original_url_tls_error_preserved_as_requested",
+      "pricing": null,
+      "pricing_status": "not_verified",
+      "url": "https://43.129.78.33/register?aff=HelLs353"
     }
   ]
 }

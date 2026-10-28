@@ -14,6 +14,8 @@
 | 魔戒注册 URL | 仓库维护者提供，见首页 | 2026-10-28 | 收录的具体 URL | 成功注册、套餐价格或节点可用 |
 | 魔戒页面条款 | [mojie.co/register](https://mojie.co/register) 的服务条款 | 2026-10-28 | 页面列明匿名性限制、用途限制和退款条件 | 实际履约、独立安全审计或法律结论 |
 
+八戒入口由维护者于 2026-10-28 提供并确认按原始 URL 收录。本次直接读取该无端口地址出现 TLS 错误，因此不标记为访问已验证；这不构成服务整体不可用的结论。
+
 ## 参考项目与原创范围
 
 形式参考：[jichangtuijian-1024/anliangfufeijichang](https://github.com/jichangtuijian-1024/anliangfufeijichang)。查看版本：[`8f42e368b61c61db472fb098fa7330f0fa84bca8`](https://github.com/jichangtuijian-1024/anliangfufeijichang/tree/8f42e368b61c61db472fb098fa7330f0fa84bca8)，提交日期 2026-10-26。
