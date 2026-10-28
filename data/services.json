@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "content_updated": "2026-10-28",
   "publisher": "Tiancheng-Xu",
   "independent_performance_tested": false,
@@ -11,70 +11,563 @@
       "read_observation": "web_reader_http_403",
       "pricing": null,
       "pricing_status": "not_verified",
-      "url": "https://xn--1-q07a56pdss.com/#/register?code=YgXNrJbg"
+      "url": "https://xn--1-q07a56pdss.com/#/register?code=YgXNrJbg",
+      "features": [],
+      "feature_status": "not_verified"
     },
     {
       "id": "niubi",
       "name": "牛逼机场",
       "source": "publisher_provided",
       "read_observation": "web_reader_loading_text_only",
-      "pricing": null,
-      "pricing_status": "not_verified",
-      "url": "https://666.66jc.top/#/login?code=dJVAvOZT"
+      "pricing": [
+        {
+          "billing": "按量",
+          "price_cny": "13.9",
+          "quota_gb_for_unit_price": 200,
+          "quota_display": "200 GB",
+          "nominal_cny_per_gb": "0.0695",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "35.9",
+          "quota_gb_for_unit_price": 2000,
+          "quota_display": "2,000 GB",
+          "nominal_cny_per_gb": "0.0180",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "75.9",
+          "quota_gb_for_unit_price": 6000,
+          "quota_display": "6,000 GB",
+          "nominal_cny_per_gb": "0.0127",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "7.4",
+          "quota_gb_for_unit_price": 1000,
+          "quota_display": "1,000 GB／月",
+          "nominal_cny_per_gb": "0.0074",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "14.9",
+          "quota_gb_for_unit_price": 3000,
+          "quota_display": "3,000 GB／月",
+          "nominal_cny_per_gb": "0.0050",
+          "notes": ""
+        },
+        {
+          "billing": "年付",
+          "price_cny": "24.9",
+          "quota_gb_for_unit_price": 2400,
+          "quota_display": "200 GB／月",
+          "nominal_cny_per_gb": "0.0104",
+          "notes": "按 12 个月合计 2,400 GB；不是一次性流量池"
+        }
+      ],
+      "pricing_status": "third_party_reference_not_officially_verified",
+      "url": "https://666.66jc.top/#/login?code=dJVAvOZT",
+      "features": [
+        "参考文列有中转线路、通用订阅及专用客户端。",
+        "同时列出按量、月付和年付套餐；部分下载节点标注 0.1× 扣量。"
+      ],
+      "feature_status": "third_party_claim_not_independently_verified"
     },
     {
       "id": "mojie",
       "name": "魔戒机场",
       "source": "publisher_provided",
       "read_observation": "login_page_observed_operator_identity_not_verified",
-      "pricing": null,
-      "pricing_status": "not_verified",
-      "url": "https://mojie.co/register?aff=k0qWkTmz"
+      "pricing": [
+        {
+          "billing": "按量",
+          "price_cny": "1",
+          "quota_gb_for_unit_price": 1,
+          "quota_display": "1 GB",
+          "nominal_cny_per_gb": "1.0000",
+          "notes": "参考文注明体验包不可续费"
+        },
+        {
+          "billing": "按量",
+          "price_cny": "19.9",
+          "quota_gb_for_unit_price": 130,
+          "quota_display": "130 GB",
+          "nominal_cny_per_gb": "0.1531",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "29.9",
+          "quota_gb_for_unit_price": 210,
+          "quota_display": "210 GB",
+          "nominal_cny_per_gb": "0.1424",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "52",
+          "quota_gb_for_unit_price": 420,
+          "quota_display": "420 GB",
+          "nominal_cny_per_gb": "0.1238",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "85",
+          "quota_gb_for_unit_price": 750,
+          "quota_display": "750 GB",
+          "nominal_cny_per_gb": "0.1133",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "179",
+          "quota_gb_for_unit_price": 1660,
+          "quota_display": "1,660 GB",
+          "nominal_cny_per_gb": "0.1078",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "330",
+          "quota_gb_for_unit_price": 3600,
+          "quota_display": "3,600 GB",
+          "nominal_cny_per_gb": "0.0917",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "500",
+          "quota_gb_for_unit_price": 5500,
+          "quota_display": "5,500 GB",
+          "nominal_cny_per_gb": "0.0909",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "888",
+          "quota_gb_for_unit_price": 10000,
+          "quota_display": "10,000 GB",
+          "nominal_cny_per_gb": "0.0888",
+          "notes": "按 1 TB＝1,000 GB 换算"
+        }
+      ],
+      "pricing_status": "third_party_reference_not_officially_verified",
+      "url": "https://mojie.co/register?aff=k0qWkTmz",
+      "features": [
+        "参考文列为按量计费，额度用完再补充，并标注不按月重置。",
+        "参考文标注不限制设备数量；提供 1 GB 小额体验包。"
+      ],
+      "feature_status": "third_party_claim_not_independently_verified"
     },
     {
       "id": "bajie",
       "name": "八戒机场",
       "source": "publisher_provided",
       "read_observation": "original_url_tls_error_preserved_as_requested",
-      "pricing": null,
-      "pricing_status": "not_verified",
-      "url": "https://43.129.78.33/register?aff=HelLs353"
+      "pricing": [
+        {
+          "billing": "按量",
+          "price_cny": "1",
+          "quota_gb_for_unit_price": 1,
+          "quota_display": "1 GB",
+          "nominal_cny_per_gb": "1.0000",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "34.8",
+          "quota_gb_for_unit_price": 100,
+          "quota_display": "100 GB",
+          "nominal_cny_per_gb": "0.3480",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "70.8",
+          "quota_gb_for_unit_price": 220,
+          "quota_display": "220 GB",
+          "nominal_cny_per_gb": "0.3218",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "118.8",
+          "quota_gb_for_unit_price": 390,
+          "quota_display": "390 GB",
+          "nominal_cny_per_gb": "0.3046",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "237.6",
+          "quota_gb_for_unit_price": 800,
+          "quota_display": "800 GB",
+          "nominal_cny_per_gb": "0.2970",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "357.6",
+          "quota_gb_for_unit_price": 1260,
+          "quota_display": "1,260 GB",
+          "nominal_cny_per_gb": "0.2838",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "799.2",
+          "quota_gb_for_unit_price": 3000,
+          "quota_display": "3,000 GB",
+          "nominal_cny_per_gb": "0.2664",
+          "notes": "按 1 TB＝1,000 GB 换算"
+        },
+        {
+          "billing": "月付",
+          "price_cny": "12.9",
+          "quota_gb_for_unit_price": 70,
+          "quota_display": "70 GB／月",
+          "nominal_cny_per_gb": "0.1843",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "25.9",
+          "quota_gb_for_unit_price": 150,
+          "quota_display": "150 GB／月",
+          "nominal_cny_per_gb": "0.1727",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "38.9",
+          "quota_gb_for_unit_price": 300,
+          "quota_display": "300 GB／月",
+          "nominal_cny_per_gb": "0.1297",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "51.9",
+          "quota_gb_for_unit_price": 500,
+          "quota_display": "500 GB／月",
+          "nominal_cny_per_gb": "0.1038",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "103.9",
+          "quota_gb_for_unit_price": 1000,
+          "quota_display": "1,000 GB／月",
+          "nominal_cny_per_gb": "0.1039",
+          "notes": ""
+        }
+      ],
+      "pricing_status": "third_party_reference_not_officially_verified",
+      "url": "https://43.129.78.33/register?aff=HelLs353",
+      "features": [
+        "参考文介绍为 IEPL 专线，列有日本家宽节点。",
+        "提供按量和月付两种选择；参考文标注 1× 扣量及不限制在线人数。"
+      ],
+      "feature_status": "third_party_claim_not_independently_verified"
     },
     {
       "id": "wangji",
       "name": "网际快车",
       "source": "publisher_provided",
       "read_observation": "not_verified",
-      "pricing": null,
-      "pricing_status": "not_verified",
-      "url": "https://uveqzp.xn--66tw07h.com"
+      "pricing": [
+        {
+          "billing": "按量",
+          "price_cny": "6.8",
+          "quota_gb_for_unit_price": 20,
+          "quota_display": "20 GB",
+          "nominal_cny_per_gb": "0.3400",
+          "notes": "",
+          "selected_node_multiplier": 3,
+          "selected_node_cny_per_actual_gb": "1.0200"
+        },
+        {
+          "billing": "按量",
+          "price_cny": "24",
+          "quota_gb_for_unit_price": 100,
+          "quota_display": "100 GB",
+          "nominal_cny_per_gb": "0.2400",
+          "notes": "",
+          "selected_node_multiplier": 3,
+          "selected_node_cny_per_actual_gb": "0.7200"
+        },
+        {
+          "billing": "按量",
+          "price_cny": "44",
+          "quota_gb_for_unit_price": 200,
+          "quota_display": "200 GB",
+          "nominal_cny_per_gb": "0.2200",
+          "notes": "",
+          "selected_node_multiplier": 3,
+          "selected_node_cny_per_actual_gb": "0.6600"
+        },
+        {
+          "billing": "按量",
+          "price_cny": "78",
+          "quota_gb_for_unit_price": 380,
+          "quota_display": "380 GB",
+          "nominal_cny_per_gb": "0.2053",
+          "notes": "",
+          "selected_node_multiplier": 3,
+          "selected_node_cny_per_actual_gb": "0.6158"
+        },
+        {
+          "billing": "按量",
+          "price_cny": "198",
+          "quota_gb_for_unit_price": 1000,
+          "quota_display": "1,000 GB",
+          "nominal_cny_per_gb": "0.1980",
+          "notes": "",
+          "selected_node_multiplier": 3,
+          "selected_node_cny_per_actual_gb": "0.5940"
+        },
+        {
+          "billing": "日享／月付",
+          "price_cny": "28",
+          "quota_gb_for_unit_price": 1800,
+          "quota_display": "1,800 GB／月",
+          "nominal_cny_per_gb": "0.0156",
+          "notes": "参考文标注每天 60 GB，凌晨重置"
+        },
+        {
+          "billing": "日享／季付",
+          "price_cny": "68",
+          "quota_gb_for_unit_price": 5400,
+          "quota_display": "5,400 GB／季",
+          "nominal_cny_per_gb": "0.0126",
+          "notes": "参考文标注每天 60 GB，凌晨重置"
+        },
+        {
+          "billing": "日享／年付",
+          "price_cny": "198",
+          "quota_gb_for_unit_price": 21900,
+          "quota_display": "21,900 GB／年",
+          "nominal_cny_per_gb": "0.0090",
+          "notes": "参考文标注每天 60 GB，凌晨重置"
+        }
+      ],
+      "pricing_status": "third_party_reference_not_officially_verified",
+      "url": "https://uveqzp.xn--66tw07h.com",
+      "features": [
+        "参考文列有香港、日本、台湾、美国住宅 IP 节点。",
+        "提供按量和日享套餐；家宽节点标注 3× 扣量，日享标注每日 60 GB。"
+      ],
+      "feature_status": "third_party_claim_not_independently_verified"
     },
     {
       "id": "flybit",
       "name": "FlyBit",
       "source": "publisher_provided",
       "read_observation": "not_verified",
-      "pricing": null,
-      "pricing_status": "not_verified",
-      "url": "https://goflybit.com/register?code=bENmUXU81n"
+      "pricing": [
+        {
+          "billing": "按量",
+          "price_cny": "36",
+          "quota_gb_for_unit_price": 128,
+          "quota_display": "128 GB",
+          "nominal_cny_per_gb": "0.2813",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "68",
+          "quota_gb_for_unit_price": 256,
+          "quota_display": "256 GB",
+          "nominal_cny_per_gb": "0.2656",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "128",
+          "quota_gb_for_unit_price": 512,
+          "quota_display": "512 GB",
+          "nominal_cny_per_gb": "0.2500",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "238",
+          "quota_gb_for_unit_price": 1024,
+          "quota_display": "1,024 GB",
+          "nominal_cny_per_gb": "0.2324",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "15",
+          "quota_gb_for_unit_price": 128,
+          "quota_display": "128 GB／月",
+          "nominal_cny_per_gb": "0.1172",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "22",
+          "quota_gb_for_unit_price": 192,
+          "quota_display": "192 GB／月",
+          "nominal_cny_per_gb": "0.1146",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "28",
+          "quota_gb_for_unit_price": 256,
+          "quota_display": "256 GB／月",
+          "nominal_cny_per_gb": "0.1094",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "52",
+          "quota_gb_for_unit_price": 512,
+          "quota_display": "512 GB／月",
+          "nominal_cny_per_gb": "0.1016",
+          "notes": ""
+        }
+      ],
+      "pricing_status": "third_party_reference_not_officially_verified",
+      "url": "https://goflybit.com/register?code=bENmUXU81n",
+      "features": [
+        "参考文列有专线与中转节点、Shadowsocks（SS）协议及不限制设备数量。",
+        "提供按量和月付套餐；参考文另列 1 天 2 GB 体验，是否开放以当前页面为准。"
+      ],
+      "feature_status": "third_party_claim_not_independently_verified"
     },
     {
       "id": "yesha",
       "name": "夜煞云",
       "source": "publisher_provided",
       "read_observation": "not_verified",
-      "pricing": null,
-      "pricing_status": "not_verified",
-      "url": "https://mm.goyesha.com/#/register?code=L7GPK9eD"
+      "pricing": [
+        {
+          "billing": "按量",
+          "price_cny": "106",
+          "quota_gb_for_unit_price": 400,
+          "quota_display": "400 GB",
+          "nominal_cny_per_gb": "0.2650",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "10",
+          "quota_gb_for_unit_price": 138,
+          "quota_display": "138 GB／月",
+          "nominal_cny_per_gb": "0.0725",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "19.8",
+          "quota_gb_for_unit_price": 288,
+          "quota_display": "288 GB／月",
+          "nominal_cny_per_gb": "0.0688",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "29.8",
+          "quota_gb_for_unit_price": 520,
+          "quota_display": "520 GB／月",
+          "nominal_cny_per_gb": "0.0573",
+          "notes": ""
+        },
+        {
+          "billing": "年付",
+          "price_cny": "58",
+          "quota_gb_for_unit_price": 600,
+          "quota_display": "50 GB／月",
+          "nominal_cny_per_gb": "0.0967",
+          "notes": "按 12 个月合计 600 GB；不是一次性流量池"
+        }
+      ],
+      "pricing_status": "third_party_reference_not_officially_verified",
+      "url": "https://mm.goyesha.com/#/register?code=L7GPK9eD",
+      "features": [
+        "参考文列有公网中转与专线，Premium 节点单独标为专线。",
+        "提供按量、月付和年付套餐；参考文列有香港、日本家宽节点。"
+      ],
+      "feature_status": "third_party_claim_not_independently_verified"
     },
     {
       "id": "paoche",
       "name": "超级跑车",
       "source": "publisher_provided",
       "read_observation": "not_verified",
-      "pricing": null,
-      "pricing_status": "not_verified",
-      "url": "https://paocheyoo.com?path=register&code=oybFYbnq"
+      "pricing": [
+        {
+          "billing": "按量",
+          "price_cny": "35",
+          "quota_gb_for_unit_price": 200,
+          "quota_display": "200 GB",
+          "nominal_cny_per_gb": "0.1750",
+          "notes": ""
+        },
+        {
+          "billing": "按量",
+          "price_cny": "888",
+          "quota_gb_for_unit_price": 55555,
+          "quota_display": "55,555 GB",
+          "nominal_cny_per_gb": "0.0160",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "8",
+          "quota_gb_for_unit_price": 100,
+          "quota_display": "100 GB／月",
+          "nominal_cny_per_gb": "0.0800",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "16",
+          "quota_gb_for_unit_price": 220,
+          "quota_display": "220 GB／月",
+          "nominal_cny_per_gb": "0.0727",
+          "notes": ""
+        },
+        {
+          "billing": "月付",
+          "price_cny": "32",
+          "quota_gb_for_unit_price": 400,
+          "quota_display": "400 GB／月",
+          "nominal_cny_per_gb": "0.0800",
+          "notes": ""
+        }
+      ],
+      "pricing_status": "third_party_reference_not_officially_verified",
+      "url": "https://paocheyoo.com?path=register&code=oybFYbnq",
+      "features": [
+        "参考文列为中转线路，提供按量和月付套餐。",
+        "按量档位从 200 GB 到 55,555 GB，购买总额差异较大。"
+      ],
+      "feature_status": "third_party_claim_not_independently_verified"
     }
-  ]
+  ],
+  "pricing_source": {
+    "url": "https://github.com/jichangtuijian-1024/anliangfufeijichang/blob/8f42e368b61c61db472fb098fa7330f0fa84bca8/README.md",
+    "commit": "8f42e368b61c61db472fb098fa7330f0fa84bca8",
+    "source_commit_date": "2026-10-26",
+    "retrieved_on": "2026-10-28",
+    "kind": "third_party_reference",
+    "official_current_prices_verified": false
+  },
+  "unit_price_method": {
+    "formula": "price_cny / quota_gb_for_unit_price",
+    "rounding": "4 decimal places, ROUND_HALF_UP",
+    "tb_to_gb_assumption": 1000,
+    "periodic_plans": "Assumes all stated periodic allowances consumed; annual monthly quotas multiplied by 12. No rollover assumed.",
+    "node_multipliers": "Nominal unit price excludes multipliers; selected-node calculations are labeled separately."
+  }
 }

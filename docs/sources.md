@@ -22,9 +22,17 @@
 
 ## 参考项目与原创范围
 
-形式参考：[jichangtuijian-1024/anliangfufeijichang](https://github.com/jichangtuijian-1024/anliangfufeijichang)。查看版本：[`8f42e368b61c61db472fb098fa7330f0fa84bca8`](https://github.com/jichangtuijian-1024/anliangfufeijichang/tree/8f42e368b61c61db472fb098fa7330f0fa84bca8)，提交日期 2026-10-26。
+报价与特点参考：[jichangtuijian-1024/anliangfufeijichang](https://github.com/jichangtuijian-1024/anliangfufeijichang)。查看版本：[`8f42e368b61c61db472fb098fa7330f0fa84bca8`](https://github.com/jichangtuijian-1024/anliangfufeijichang/tree/8f42e368b61c61db472fb098fa7330f0fa84bca8)，提交日期 2026-10-26。
 
-参考范围仅为 README 的目录、表格与服务分节组织方式。查看时仓库元数据未标明许可证；本项目未复制其正文、价格表、图片或其他维护者的链接参数。正文、计算示例和记录模板为独立编写。
+本次摘录参考资料中的套餐价格、额度和计费周期等事实数据，独立重算单位价格，重新组织对比表并用自己的表述概括特点。未采用其质量排名、稳定性保证、图片或其他维护者的链接参数。查看时仓库元数据未标明许可证；本项目没有将其全文复制到仓库。
+
+## 套餐数据与计算口径
+
+2026-10-28 读取上述固定版本，整理 7 家共 53 个套餐档位。一元机场不在该来源中，价格保持未知。第三方参考报价不等于服务商当前报价；所有特点均未经过本项目独立测量验证。
+
+单位价格以原始总价除以原始额度重新计算，并保留 4 位小数。年付月度额度乘以 12；TB 暂按 1,000 GB 计算。按量、月付、年付和每日限额分开标注。特殊节点倍率只适用于标出的节点类型，不默认覆盖全部套餐。
+
+计算时修正了参考文的部分近似值，例如网际快车 44／200＝0.2200 元／GB、超级跑车 888／55,555≈0.0160 元／GB。完整数据及来源位于 [services.json](../data/services.json)。页面没有独立验证的优惠券折扣，不计入单价。
 
 ## 利益说明
 
