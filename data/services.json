@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "content_updated": "2026-10-28",
   "publisher": "Tiancheng-Xu",
   "independent_performance_tested": false,
@@ -7,35 +7,29 @@
     {
       "id": "yiyuan",
       "name": "一元机场",
-      "referral_url": "https://xn--1-q07a56pdss.com/#/register?code=YgXNrJbg",
-      "referral_code": "YgXNrJbg",
       "source": "publisher_provided",
       "read_observation": "web_reader_http_403",
-      "referral_attribution_verified": false,
       "pricing": null,
-      "pricing_status": "not_verified"
+      "pricing_status": "not_verified",
+      "url": "https://xn--1-q07a56pdss.com/#/register?code=YgXNrJbg"
     },
     {
       "id": "niubi",
       "name": "牛逼机场",
-      "referral_url": "https://666.66jc.top/#/login?code=dJVAvOZT",
-      "referral_code": "dJVAvOZT",
       "source": "publisher_provided",
       "read_observation": "web_reader_loading_text_only",
-      "referral_attribution_verified": false,
       "pricing": null,
-      "pricing_status": "not_verified"
+      "pricing_status": "not_verified",
+      "url": "https://666.66jc.top/#/login?code=dJVAvOZT"
     },
     {
       "id": "mojie",
       "name": "魔戒机场",
-      "referral_url": null,
-      "referral_code": null,
-      "source": "not_obtained",
+      "source": "publisher_provided",
       "read_observation": "login_page_observed_operator_identity_not_verified",
-      "referral_attribution_verified": false,
       "pricing": null,
-      "pricing_status": "not_verified"
+      "pricing_status": "not_verified",
+      "url": "https://mojie.co/register?aff=k0qWkTmz"
     }
   ]
 }
