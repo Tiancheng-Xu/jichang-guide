@@ -1,6 +1,6 @@
 # 在线套餐筛选器的构建与维护
 
-[返回选购指南](../README.md) · [打开在线页面](https://jichang-guide.271251549.workers.dev/)
+[返回选购指南](../README.md) · [打开在线页面](https://jichang.baby2b.online/)
 
 在线页面把现有参考数据转换成静态 HTML，筛选在访问者的浏览器中运行。不开设账号，不接收订单，不配置点击统计。
 
@@ -29,7 +29,7 @@ python3 tests/check_site.py
 
 ## 托管目标
 
-当前目标为 Cloudflare Worker `jichang-guide` 的纯静态资源托管，域名为 `jichang-guide.271251549.workers.dev`。没有 Worker 请求处理脚本、数据库或推理服务。
+当前目标为 Cloudflare Worker `jichang-guide` 的纯静态资源托管，主域名为 `jichang.baby2b.online`，免费托管地址为 `jichang-guide.271251549.workers.dev`。没有 Worker 请求处理脚本、数据库或推理服务。
 
 使用[官方静态资源上传流程](https://developers.cloudflare.com/workers/static-assets/direct-upload/)更新：生成文件清单，上传发生变化的资源，再将完成令牌关联到该 Worker。上传令牌仅在内存中使用，不写入源文件、日志或仓库。不覆盖其他 Worker，也不创建付费资源或修改现有域名。
 
@@ -42,3 +42,7 @@ python3 tests/check_site.py
 页面可访问、静态检查通过或元数据齐全，都不等于已被搜索引擎收录，也不等于排名或 AI 引用已经提升。
 
 Cloudflare 的 `workers.dev` 域名可能对默认 Python urllib 客户端返回1010。HTTP健康检查应使用明确的客户端标识，例如 `JichangGuideHealthcheck/1.0`，并结合响应正文判断原因，不能把单个客户端被拦当作所有访客不可访问。[Cloudflare 1010 说明](https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/)。当前普通访问检查通过；搜索引擎实际抓取和浏览器视觉验收另行记录。
+
+2026-10-29 经维护者确认绑定专用子域名 `jichang.baby2b.online`，作为 canonical、站点地图及 GitHub 入口的主地址。免费托管地址保留同样页面，并通过 canonical 指向专用域名；它目前不是301重定向。
+
+新子域名使用仅匹配 `http.host eq "jichang.baby2b.online"` 的 Cloudflare 配置例外（BIC关闭），修正默认程序客户端的1010误拦。区域默认 BIC 保持开启；2026-10-29 已用默认 HTTP 客户端确认首页、预算、方法页、robots及站点地图均返回200。

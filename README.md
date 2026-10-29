@@ -1,6 +1,6 @@
 # 按量付费机场对比（2026）：8 家套餐价格、每 GB 单价与月付选择
 
-**[打开在线套餐筛选器](https://jichang-guide.271251549.workers.dev/)** · [下载 53 档报价 CSV](https://jichang-guide.271251549.workers.dev/data/plans.csv)
+**[打开在线套餐筛选器](https://jichang.baby2b.online/)** · [下载 53 档报价 CSV](https://jichang.baby2b.online/data/plans.csv)
 
 **本页比较一元机场、牛逼机场、魔戒、八戒、网际快车、FlyBit、夜煞云、超级跑车。** 提供访问入口、服务特点、套餐总价、流量额度及重新计算的每 GB 单价，帮助区分低单价与低总支出。
 
@@ -12,7 +12,7 @@
 
 ## 快速导航
 
-- [在线按预算、用量和倍率筛选](https://jichang-guide.271251549.workers.dev/#calculator)
+- [在线按预算、用量和倍率筛选](https://jichang.baby2b.online/#calculator)
 - [八家机场特点与价格速览](#overview)
 - [每 GB 单价怎么算](#unit-price)
 - [每月 20／50／100 GB：按量与月付首付对比](docs/usage-cost-comparison.md)
