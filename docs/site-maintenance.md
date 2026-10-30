@@ -8,6 +8,7 @@
 
 - 主数据：[services.json](../data/services.json)，包含8家服务入口、53档参考报价及来源状态。
 - 预算比较：[comparisons.json](../data/comparisons.json)，包含预算筛选结果与费用分界。
+- 指南正文：[beginner-guide.html](../web/beginner-guide.html)，生成 `/guide/`；内容日期与报价核验日期分别维护。
 - 构建脚本：[build_site.py](../scripts/build_site.py)。
 - 筛选逻辑：[plan-utils.mjs](../web/plan-utils.mjs)。
 
@@ -19,7 +20,7 @@ node --test tests/plan-utils.test.mjs
 python3 tests/check_site.py
 ```
 
-输出目录为 `site/`，其中包含首页、预算页、来源说明、JSON、CSV、站点地图与 robots.txt。生成目录已忽略，不当作原始数据编辑。
+输出目录为 `site/`，其中包含首页、预算页、按用量比较页、新手指南、来源说明、JSON、CSV、站点地图与 robots.txt。生成目录已忽略，不当作原始数据编辑。
 
 ## 筛选规则
 
@@ -46,3 +47,7 @@ Cloudflare 的 `workers.dev` 域名可能对默认 Python urllib 客户端返回
 2026-10-29 经维护者确认绑定专用子域名 `jichang.baby2b.online`，作为 canonical、站点地图及 GitHub 入口的主地址。免费托管地址保留同样页面，并通过 canonical 指向专用域名；它目前不是301重定向。
 
 新子域名使用仅匹配 `http.host eq "jichang.baby2b.online"` 的 Cloudflare 配置例外（BIC关闭），修正默认程序客户端的1010误拦。区域默认 BIC 保持开启；2026-10-29 已用默认 HTTP 客户端确认首页、预算、方法页、robots及站点地图均返回200。
+
+## 渲染与内容结构
+
+核心指南、套餐和费用表在构建时写入 HTML，关闭 JavaScript 也可读取；浏览器模块仅增强筛选，不采用 CSR 正文加载或框架水合。`/usage/` 从同一主数据选取能覆盖 20／50／100 GB 的单个最低实付套餐。独立指南通过可见内链、面包屑与站点地图连接；结构化面包屑对应页面实际导航，不添加虚构评价或价格验证日期。

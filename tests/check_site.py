@@ -40,7 +40,9 @@ for s in data['services']:
  assert s['name'] in source
 assert len(list(csv.DictReader((SITE/'data/plans.csv').open())))==53
 assert json.loads((SITE/'data/services.json').read_text())==data
-assert len(ET.fromstring((SITE/'sitemap.xml').read_text()))==3
+sitemap_urls={node.find('{http://www.sitemaps.org/schemas/sitemap/0.9}loc').text for node in ET.fromstring((SITE/'sitemap.xml').read_text())}
+expected_urls={doc.canonical[0] for name,doc in pages.items() if name!='404.html'}
+assert sitemap_urls==expected_urls,(sitemap_urls,expected_urls)
 for p in SITE.rglob('*'):
  if p.is_file():
   s=p.read_text();assert not re.search(r'\b[0-9]{5,12}@qq\.com\b',s),p

@@ -4,7 +4,9 @@
 
 **本页比较一元机场、牛逼机场、魔戒、八戒、网际快车、FlyBit、夜煞云、超级跑车。** 提供访问入口、服务特点、套餐总价、流量额度及重新计算的每 GB 单价，帮助区分低单价与低总支出。
 
-如果正在找按量付费机场推荐，先看[每月 20／50／100 GB 的最低首付对比](docs/usage-cost-comparison.md)，再查看下方完整套餐；避免为了更低单价一次买入用不完的大包。
+**第一次了解机场 VPN？** “机场”是代理节点订阅服务的俗称，VPN 是虚拟专用网络技术。具体产品的协议、客户端与路由方式可能不同，不能单凭名称判断速度或隐私。先看[机场与 VPN 的区别、订阅和客户端入门指南](https://jichang.baby2b.online/guide/)，再比较费用。
+
+如果正在找按量付费机场推荐，先看[每月 20／50／100 GB 的最低首付对比](docs/usage-cost-comparison.md)，或打开[在线用量对比表](https://jichang.baby2b.online/usage/)，再查看下方完整套餐；避免为了更低单价一次买入用不完的大包。
 
 **资料整理：2026-10-28。** 以下 7 家报价和特点来自 [参考资料的固定版本](https://github.com/jichangtuijian-1024/anliangfufeijichang/blob/8f42e368b61c61db472fb098fa7330f0fa84bca8/README.md)（提交日期 2026-10-26），不是本项目当天从官网订单页核验的现价。实际价格、条款和可购状态以服务商页面为准；一元机场暂无可靠套餐数据。
 
@@ -12,6 +14,7 @@
 
 ## 快速导航
 
+- [机场与 VPN、订阅和客户端：新手指南](https://jichang.baby2b.online/guide/)
 - [在线按预算、用量和倍率筛选](https://jichang.baby2b.online/#calculator)
 - [八家机场特点与价格速览](#overview)
 - [每 GB 单价怎么算](#unit-price)
